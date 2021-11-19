@@ -1,0 +1,54 @@
+#wrapper {
+  margin: 0 auto;
+}
+#footer {
+  
+  color: #fff;
+  text-align: center;
+}
+#header{
+  background-color:#fff;
+  position: relative;
+}
+#header ul#main-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background-color: rgb(29, 133, 230);
+}
+ul#main-menu a {
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+}
+#footer p {
+  padding: 10px 0;
+  margin: 0;
+  background-color: rgb(29, 133, 230);
+}
+#logo{
+  font-size:24px;
+  font-weight:bold;
+  padding:20px 10px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#user-login{
+  position:absolute;
+  right:10px;
+  top:10px;
+  font-size:15px;
+  padding:10px;
+}
+#user-login strong{
+  color:red;
+}
+#content{
+  min-height:500px;
+}
